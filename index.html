@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mapquest.css" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+
+    <script type="text/javascript" src="js/lib/jquery.js"></script>
+    <script type="text/javascript" src="js/lib/angular.js"></script>
+    <script type="text/javascript" src="js/lib/lodash.js"></script>
+    <script type="text/javascript" src="js/widgets/ngMapQuest.js"></script>
+    <script type="text/javascript" src="js/widgets/ngWidgets.js"></script>
+    <script type="text/javascript" src="js/app/app.js"></script>
+
+    <script src="https://www.mapquestapi.com/sdk/js/v7.0.s/mqa.toolkit.js?key=Gmjtd|lu612duyn5,7w=o5-lwz0g"></script>
+
+</head>
+
+<body ng-controller="MapQuestController">
+    <div class="container">
+        <div class="card">
+            <div ng-map-quest config="mapConfig"></div>
+        </div>
+    </div>
+</body>
+
+</html>

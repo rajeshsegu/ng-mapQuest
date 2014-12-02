@@ -1,0 +1,14 @@
+{
+    "name": "ng-mapquest",
+    "description": "Angular MapQuest Widget",
+    "version": "1.0.0",
+    "private": true,
+    "server": {
+        "host": "localhost",
+        "port": "5050"
+    },
+    "dependencies": {
+        "requirejs": "*",
+        "express": "3.4.8"
+    }
+}
